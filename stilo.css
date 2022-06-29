@@ -107,7 +107,36 @@
     color: #18A0FB;
 }
 
+.Pantalla .Nave .Acercade {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 750px;
+    top: 25px;
+
+    font-family: 'Montserrat';
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #18A0FB;
+}
+
 .Inicio a:hover {
+    color: #ff1717;
+    cursor: pointer;
+
+    border-radius: 6px 6px 6px 6px;
+    border: 3px solid #18A0FB;
+}
+
+.Acercade a:hover {
     color: #ff1717;
     cursor: pointer;
 
@@ -129,7 +158,7 @@
     position: absolute;
     width: 173px;
     height: 24px;
-    left: 593px;
+    left: 800px;
     top: 120px;
 
     font-family: 'Montserrat';
@@ -150,20 +179,123 @@
     border-radius: 6px 6px 6px 6px;
     border: 3px solid #18A0FB;
 }
-.Pantalla .Foter .Facebook{
-position: absolute;
-width: 173px;
-height: 24px;
-left: 786px;
-top: 150px;
 
-font-family: 'Montserrat';
+.Pantalla .Foter .Facebook {
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 1000px;
+    top: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+
+.Pantalla .Foter .Github {
+    position: absolute;
+    width: 173px;
+    height: 10px;
+    left: 1050px;
+    top: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+
+.Pantalla .Foter .Post {
+    position: absolute;
+    width: 173px;
+    height: 10px;
+    left: 1500px;
+    top: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.015em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Pantalla .Foter .Logo {
+    position: absolute;
+    width: 173px;
+    height: 10px;
+    left: 320px;
+    top: 150px;
+
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+.Pantalla .Foter .Nombre {
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    left: 390px;
+    top: 110px;
+
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.Pantalla .Nave .Logoc {
+position: absolute;
+width: 30px;
+height: 20px;
+left: 250px;
+top: 20px;
+
+font-family: 'Cinzel Decorative';
 font-style: normal;
 font-weight: 700;
-font-size: 15px;
-line-height: 24px;
-
-
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-align: center;
 letter-spacing: -0.015em;
 
-color: #FFFFFF;}
+color: #18A0FB;}
