@@ -124,7 +124,7 @@ height: 710px;
     line-height: 24px;
     margin-left: 340px;
     color: #000;
-    background-color: #6DE4EA;
+    /*background-color: #6DE4EA;*/
     width: 900px;
     font-size: 15px;
     opacity: 1;
@@ -138,5 +138,42 @@ position: absolute;
 }
 
 .datos-peli2{
-    margin-top: 20px;
+    margin-top: 25px;
+}
+.datos-peli3{
+    margin-top: 0px;
+}
+
+@media only screen and (max-width:900px){
+    .Presentacion{
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    nav a{
+        margin-top: 35px;
+        padding-right: 10px;
+        
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .DatosGenerales{
+        position: absolute;
+        line-height: 24px;
+        margin-top: 600px;
+        margin-left: 0px;
+        color: #000;
+        /*background-color: #6DE4EA;*/
+        width: 900px;
+        font-size: 15px;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity .24s ease-in-out;
+        margin-bottom: 40px;
+    
+    }
+
+
 }
