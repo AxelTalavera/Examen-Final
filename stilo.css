@@ -109,11 +109,11 @@ h1 {
 .ImagenPelicula {
     position: absolute;
     padding-left: 6%;
-    width: 961px;
+    width: 400px;
     height: 510px;
     display: inline-block;
     top: 5%;
-    
+    z-index: 1;
 
 }
 
