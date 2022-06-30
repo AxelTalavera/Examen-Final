@@ -177,7 +177,7 @@ background: rgba(0, 0, 0, 0.8);
     position: absolute;
     width: 0%;
     height: 0%;
-    left: 50%;
+    left: 55%;
     top: 50%;
 
     font-family: 'Montserrat';
@@ -196,7 +196,7 @@ background: rgba(0, 0, 0, 0.8);
     position: absolute;
     width: 0%;
     height: 0%;
-    left: 45%;
+    left: 50%;
     top: 50%;
 
     font-family: 'Montserrat';
@@ -327,5 +327,67 @@ h3{
         padding: 10px;
     }
 
+    .ParrafoReview{
+        font-size: 18px;
+        margin-top: 230px;
+        text-align: justify;
+    }
+
+    .footer .Contactenos {
+        position: absolute;
+        width: 0%;
+        height: 0%;
+        left: 29%;
+        top: 55%;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30%;
+        color: #dacdcd;
+        letter-spacing: -0.015em;
+        
+    
+    
+    }
+    
+    .footer .Facebook {
+        position: absolute;
+        width: 0%;
+        height: 0%;
+        left: 65%;
+        top: 50%;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 0%;
+        font-size: 0%;
+        line-height: 0%;
+    
+    
+        letter-spacing: -0.015em;
+    
+        color: #FFFFFF;
+    }
+    
+    .footer .Github {
+        position: absolute;
+        width: 0%;
+        height: 0%;
+        left: 55%;
+        top: 50%;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 0%;
+        font-size: 0%;
+        line-height: 0%;
+    
+    
+        letter-spacing: -0.015em;
+    
+        color: #FFFFFF;
+    }
 
 }
