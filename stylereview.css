@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 .container {
@@ -74,8 +75,12 @@ nav a:hover{
     border: 1px solid #6DE4EA;
 }
 
-.Cabecera{
+.cabecera{
+    
     padding-left: 5%;
+    margin-top: 20px;
+  /*  background-color: #ff1717;*/
+    
 }
 .Lugar{
     font-size: 15px;
@@ -87,5 +92,51 @@ h1{
 }
 
 .ImagenPelicula{
+    
+padding-left: 6%;
+width: 961px;
+height: 710px;
 
+}
+
+.Presentacion{
+    width: 100%;
+    position: relative;
+}
+
+.w3-image{
+    position: absolute;
+    top: 0px;
+    /*max-width: 120%;*/
+    max-width: 309px;
+    max-height: 710px;
+    /*height: auto;*/
+}
+
+/*.DatosGenerales{
+    position: absolute;
+    top: 0px;
+    padding-left: 24%;
+    width: 900px;
+}*/
+.DatosGenerales{
+    position: absolute;
+    line-height: 24px;
+    margin-left: 340px;
+    color: #000;
+    background-color: #6DE4EA;
+    width: 900px;
+    font-size: 15px;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .24s ease-in-out;
+    margin-bottom: 40px;
+
+}
+.datos-peli{
+position: absolute;
+}
+
+.datos-peli2{
+    margin-top: 20px;
 }
