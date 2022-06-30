@@ -74,6 +74,151 @@ nav a:hover{
     border: 1px solid #6DE4EA;
 }
 
+.cabecera{
+    
+    padding-left: 5%;
+    margin-top: 20px;
+  /*  background-color: #ff1717;*/
+    
+}
+.Lugar{
+    font-size: 15px;
+    padding-left: 5%;
+}
+h1{
+    
+    font-size: 15px;
+    padding-left: 5%;
+}
+.ImagenPelicula{
+    
+    padding-left: 6%;
+    width: 961px;
+    height: 510px;
+    
+    }
+    
+    .Presentacion{
+        width: 100%;
+        position: relative;
+    }
+    
+    .w3-image{
+        position: absolute;
+        top: 20%;
+        /*max-width: 120%;*/
+        max-width: 309px;
+        max-height: 710px;
+        /*height: auto;*/
+    }
+    
+.footer{
+    position: absolute;
+width: 100%;
+height: 30%;
+left: 0%;
+top: 100%;
+
+background: rgba(0, 0, 0, 0.8);
+}
+
+ .footer .Facebook {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 0%;
+    font-size: 0%;
+    line-height: 0%;
+
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.footer .Github {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 45%;
+    top: 50%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 0%;
+    font-size: 0%;
+    line-height: 0%;
+
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.footer .Logo {
+    position: absolute;
+    width: -20%;
+    height: -20%;
+    left: 5%;
+    top: 43%;
+
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700%;
+    font-size: 36%;
+    line-height: 49%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.footer .Contactenos {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 30%;
+    top: 55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30%;
+    color: #dacdcd;
+    letter-spacing: -0.015em;
+    
+
+
+}
+
+
+
+h4{
+    position: absolute;
+    font-size: 15px;
+    padding-left: 5%;
+    left: 80%;
+        top: 50%;
+        color: rgb(170, 177, 177);
+    
+}
+
+h3{
+    position: absolute;
+    font-size: 15px;
+    padding-left: 5%;
+    left: 5%;
+        top: 55%;
+        color: rgb(170, 177, 177);
+}
 /*
 .Pantalla {
     position: relative;
